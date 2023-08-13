@@ -2,7 +2,7 @@ import type { PlaywrightTestConfig } from '@playwright/test';
 
 const config: PlaywrightTestConfig = {
 	webServer: {
-		command: 'pnpm build && pnpm preview',
+		command: 'pnpm build && pnpm preview --port 4174',
 		port: 4174
 	},
 	testDir: '../scripts/tests',
