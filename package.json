@@ -14,7 +14,7 @@
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.37.0",
-		"@skeletonlabs/skeleton": "^1.0.0",
+		"@skeletonlabs/skeleton": "^2.0.0-rc.0",
 		"@skeletonlabs/tw-plugin": "^0.0.1-rc.0",
 		"@sveltejs/adapter-auto": "^2.1.0",
 		"@sveltejs/kit": "^1.22.5",
@@ -34,9 +34,6 @@
 		"tslib": "^2.6.1",
 		"typescript": "^5.1.6",
 		"vite": "^4.4.9"
-	},
-	"deployConfig": {
-		"@skeletonlabs/skeleton": "^1.0.0"
 	},
 	"type": "module"
 }
